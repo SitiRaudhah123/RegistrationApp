@@ -12,10 +12,14 @@ app.use(flash()); //  this line now comes AFTER app is defined
 
 // Database connection
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'Republic_C207',
-    database: 'C237_usersdb'
+     host: 'kxv9rg.h.filess.io',
+     user: 'C237database_beehatpull',
+     password: '31f90e51f29129f0ebb30e2fbd7ae2a80e13f69c',
+     database: 'C237database_beehatpull',
+    //host: 'host shown on database info',
+     port: 3307,
+    //user: 'database user shown on database info',
+    //database: 'database shown on database info'
 });
 
 db.connect((err) => {
